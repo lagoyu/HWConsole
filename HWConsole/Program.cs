@@ -10,7 +10,9 @@ namespace HWConsole
     {
         static void Main(string[] args)
         {
+            // Write message to the character based console 
             Console.WriteLine("Hello World");
+            // wait for a keypress so message read before console closes 
             Console.ReadKey();
         }
     }
